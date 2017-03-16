@@ -12,8 +12,12 @@ data and problems to apply machine learning to. Maybe you can take what you
 learn here as a starting point to making waves in the world of public health.
 
 If you want an easier installation time, I recommend installing
-[Anaconda](https://www.continuum.io/downloads). However, I'll provide some
-brief installation instructions of everything.
+[Anaconda](https://www.continuum.io/downloads). Anaconda ships with all the
+libraries we will be using. However, I'll provide some brief installation
+instructions of everything. This should install `Jupyter Notebook` -- open
+this to get started. Otherwise, carry on with a more difficult (but flexible)
+installation (note: not for the faint of heart if you do not have a package
+manager installed).
 
 To start, you'll need python and a few python libraries installed.
 
