@@ -1,0 +1,6 @@
+#!/bin/bash
+set -e 
+
+virtualenv env
+. activate_env
+pip install -r requirements.txt

@@ -1,0 +1,4 @@
+#!/bin/bash
+set -o allexport
+source env/bin/activate
+set +o allexport
