@@ -1,4 +1,4 @@
-# Machine Learning for Public Health (Bakersfield College Hackathon)
+# Machine Learning for Public Health
 
 This workshop intends to help you get your feet wet with machine learning
 on a public health related problem. By no means will this workshop make you
@@ -11,32 +11,10 @@ Machine learning is a powerful tool, and public health is a sector rich with
 data and problems to apply machine learning to. Maybe you can take what you
 learn here as a starting point to making waves in the world of public health.
 
-If you want an easier installation time, I recommend installing
-[Anaconda](https://www.continuum.io/downloads). Anaconda ships with all the
-libraries we will be using. However, I'll provide some brief installation
-instructions of everything. This should install `Jupyter Notebook` -- open
-this to get started. Otherwise, carry on with a more difficult (but flexible)
-installation (note: not for the faint of heart if you do not have a package
-manager installed).
+We recommend one of two ways to setup. If you are on OS X / Linux and have
+virtualenv pre-installed, you can run locally by running the `setup` script
+in this directory. Then you can use the `start_jupyterlab` script to start
+a Jupyterlab server to work with.
 
-To start, you'll need python and a few python libraries installed.
+Otherwise, we recommend using [Binder](https://mybinder.org/).
 
-Make sure you have python 3 installed, if not, download and install here:
-[Python Downloads](https://www.python.org/downloads/)
-
-Open a terminal / command shell 
-Check your python version: `which python`
-Make sure this is a version greater than 3! If not, you may have another
-version of python installed or some PATH variable may be incorrectly set.
-
-Execute the following to install the libraries we'll be using:
-```
-pip install numpy pandas sklearn jupyter
-```
-
-This should install all necessary dependencies.
-
-From there you should be able to execute `jupyter notebook` which will start
-a local notebook server and then you can open the
-`Machine Learning in Public Health.ipynb` file. We'll do all of our work from
-there.
