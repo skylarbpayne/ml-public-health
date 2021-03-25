@@ -18,3 +18,4 @@ a Jupyterlab server to work with.
 
 Otherwise, we recommend using [Binder](https://mybinder.org/).
 
+If you want to reach out for anything, you can reach me at: skylar.b.payne (at) gmail.com
